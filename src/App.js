@@ -14,7 +14,7 @@ function App() {
   ];
   const [CurrentBallance, setCurrentBallance] = useState(921.48);
   const [TotalThisMonth, setTotalThisMonth] = useState(478.33);
-  const [FromMonth, setFromMonth] = useState(+2.4);
+  const [FromMonth, setFromMonth] = useState(2.4);
 
   const heightValue = [...thisWeek].sort((a, b) => {
     return b.amount - a.amount;
@@ -66,7 +66,7 @@ function App() {
             <h2>${TotalThisMonth}</h2>
           </div>
           <div className="bottom_right">
-            <h3>{FromMonth}%</h3>
+            <h3>+{FromMonth}%</h3>
             <p>from last month</p>
           </div>
         </div>
