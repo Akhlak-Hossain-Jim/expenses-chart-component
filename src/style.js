@@ -43,7 +43,6 @@ export const Header = styled.header`
       font-size: 18px;
       line-height: 23px;
       letter-spacing: -0.03em;
-      text-transform: uppercase;
       @media (max-width: 548px) {
         font-size: 15px;
         line-height: 20px;
